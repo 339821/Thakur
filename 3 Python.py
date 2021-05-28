@@ -9,6 +9,7 @@ print(statistics.median([-11, 5.5, -3.4, 7.1, -9, 22]))
 
 
 
+# 2nd method
 
 n_num = [12,14,14,15,16,17,18]
 n = len(n_num)
