@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button onclick="compareStr()">abc</button>
+      <p id="ab"></p>
+<body>
+    <script>
+        function compareStr()
+        {
+        var str1 = {name:"atul" , Age:22 , eye:"black"}; 
+        var str2 = {name:"atul" , Age:22 , eye:"black"};
+        var result = str1.localeCompare(str2);
+        document.getElementById("ab").innerHTML = result;
+     }  
+     </script>
+</body>
+</html>
